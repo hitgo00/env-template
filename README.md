@@ -16,7 +16,7 @@ You can also install it globally like this:
 npm i env-template -g
 ```
 
-And then;
+And then run:
 
 ```bash
 env-template
