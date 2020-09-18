@@ -1,14 +1,23 @@
 ## Env Template maker
 
->A simple CLI tool to create `.env.template` from existing `.env` file!
+A simple CLI tool to create `.env.template` from existing `.env` file!
 
- Run the following command to install the package globally:
+### Usage
+
+To create the .env.template file, go to the directory containing your `.env` file and run;
+
+```bash
+npx env-template
+```
+
+You can also install it globally like this:
+
 ```bash
 npm i env-template -g
 ```
 
+And then;
 
-For creating `.env.template` file, go to the directory containing your `.env` file and simply run the command:
 ```bash
 env-template
 ```
