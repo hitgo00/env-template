@@ -6,7 +6,6 @@ fs.readFile('.env', 'utf8', (err, data) => {
   if (err) {
     throw err;
   }
-
   let tempData = [];
   let tempEnv = '';
   data = data.split('\n');
