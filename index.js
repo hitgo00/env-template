@@ -11,7 +11,9 @@ fs.readFile('.env', 'utf8', (err, data) => {
   data = data.split('\n');
   data = data.forEach((element) => {
     let key = element.split('=')[0];
-    tempData.push(key.concat(`=#Your ${key} here\n`));
+    if (key.length != 0) {
+      tempData.push(key.concat(`=#Your ${key} here\n`));
+    }
   });
   tempData.forEach((element) => {
     tempEnv = `${tempEnv}${element}`;
